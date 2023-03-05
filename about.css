@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 70px;
+    color: #0000008c;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav input{
+border: none;
+background-color: white;
+outline: none;
+margin-left: 15px;
+font-size: 15px;
+transition: all 0.3s;
+}
+.left-nav input:focus{
+margin-left: 5px;
+margin-right: 10px;
+}
+.right-nav i{
+margin-right: 10px;
+transition: all 0.3s;
+
+}
+.right-nav i:hover{
+    margin-right: 10px;
+    transform: scale(1.1);
+    color: black;
+    }
+.name{
+    border: 1px solid #0000008c ;
+    padding: 5px;
+}
+.right-nav p{
+color: white;
+background-color: #7a0fde;    
+  width: 20px;
+  border-radius:150px ;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  font-size: 15px;
+}
+hr{
+    height:1px ;
+    border-top:1px white solid ;
+    background-color: rgb(236, 229, 229);
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+}
+.nav2 a{
+    text-transform: uppercase;
+    color: #322f2f;
+    margin: 20px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.2s
+}
+.nav2 a:hover{
+    text-transform: uppercase;
+    color: #c60fde;  
+    margin: 20px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav2 span{
+  color: #c60fde;  
+}
+.line{
+    height: 50px;
+    background-color: rgba(207, 189, 189, 0.257) ;
+}
+.line p{
+    text-transform: capitalize;
+   width: fit-content;
+    height: fit-content;
+    padding-top: 17px;
+    padding-left: 70px;
+}
+.line span{
+    color: #c60fde;  
+
+}
+.sec1{
+    margin-top: 50px;
+    display: flex;
+}
+.sec1 img{
+width: 550px;
+height: 350px;
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 100px;
+}
+.sec1 .div1{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.sec1 h1{
+text-transform: capitalize;
+font-size: 30px;
+margin-bottom: 30px;
+}
+.sec1 span{
+    border-top:#7a0fde 3px solid   ;
+    border-radius: 1px;
+    padding-top: 10px;
+}
+.sec1 p{
+    width: 500px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #0000008c;
+
+  }
+  hr{
+    height:1px ;
+    border-top:1px white solid ;
+    background-color: rgb(144, 137, 137);
+}
+.sec2{
+    margin-top: 70px;
+}
+.sec2 h1{
+    text-transform: capitalize;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 54px;
+    
+}
+.sec2 span{
+    border-top:#7a0fde 3px solid   ;
+    border-radius: 1px;
+    padding-top: 10px;
+    
+}
+
+.sec2 .div1{
+    display: flex;
+    justify-content: space-around;
+}
+.sec2 .div1 img{
+   width: 70px;
+   border-radius: 100px;
+} 
+.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5{
+    text-align: center;
+}
+.sec2 .div2 p,.sec2 .div2 h2,.sec2 .div3 p,.sec2 .div3 h2,.sec2 .div4 p,.sec2 .div4 h2,.sec2 .div5 p,.sec2 .div5 h2 {
+width: fit-content;
+height: fit-content;
+text-align: center;
+margin: auto;
+
+}
+.sec2 .div2 h2,.sec2 .div3 h2,.sec2 .div4 h2,.sec2 .div5 h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.sec2 .div2 .p1,.sec2 .div3 .p1,.sec2 .div4 .p1,.sec2 .div5 .p1{
+color: #0000008c;
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 2px;
+margin-bottom: 20px;
+}
+.sec2 .div2 .p2,.sec2 .div3 .p2,.sec2 .div4 .p2,.sec2 .div5 .p2{
+    color: #0000008c;
+    line-height: 1.7;
+    width: 250px;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+.sec3{
+    display: flex;
+margin-left: 80px;
+margin-bottom: 40px;
+margin-top: 50px;
+}
+.sec3 i{
+    color: #a30fde;
+    font-size: 25px;
+}
+.sec3 h4{
+text-transform: uppercase;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+.sec3 p{
+    width: 300px;
+    line-height: 1.7;
+    font-size: 15px;
+        color: #0000008c;
+
+}
+.sec3 .div1,.sec3 .div2,.sec3 .div3{
+display: flex;
+margin: 0px 35px;
+}
+.sec3 .div1 i,.sec3 .div2 i,.sec3 .div3 i{
+ height: fit-content;
+}
+.sec3 .div1 p,.sec3 .div2 p,.sec3 .div3 p{
+    margin-left: 20px;
+
+}
+footer{
+    height: 600px;
+    margin-top: 50px;
+}
+
+footer .main{
+    display: flex;
+}
+footer .div2{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.navi{
+    width: fit-content;
+    margin-left: 90px  ;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+footer .div2 li{
+    margin-left:95px ;
+    margin-bottom: 20px;
+    list-style: none;
+}
+footer .div2 ol{
+    margin-bottom: 10px;
+   text-align: start;
+}
+footer .div3 {
+    width: fit-content;
+padding-left: 100px;
+
+}
+footer .div3 h1 {
+    width: fit-content;
+    margin-bottom: 30px;
+}
+footer .div3 img {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 110px;
+}
+footer .div3 p {
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.find{
+    font-size: 20px;
+    color: #7a0fde;
+    text-transform: capitalize;
+}
+footer .div3 .p1 {
+    color: #000000d2;
+}
+footer .div4 {
+    width: fit-content;
+padding-left: 20px;
+
+}
+footer .div4 h1 {
+    text-transform: capitalize;
+    width: fit-content;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.posi,.phone,.gemail{
+     display: flex;
+     width: 250px;
+     margin: 20px 0;
+     align-items: center;
+}
+.posi i,.phone i,.gemail i{
+ margin-right: 10px;
+ color: #5a07a7;
+}
+.posi p{
+    text-transform: capitalize;
+}
+.sub h1{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.btns{
+    margin-top: 0;
+    position: relative;
+
+}
+.email{
+    padding: 9px 5px ;
+    position: absolute;
+    z-index: -1;
+    font-size: 10px;
+    color: black;
+ }
+ .send{
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    background-color: #7a0fde;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px black;
+    left: 130px;
+    top: 1px;
+}
+.ahmed{
+    width: fit-content;
+    margin: auto;
+    margin-top: 260px;
+}
+.my{
+    color: #7a0fde;
+    text-transform: capitalize;
+}
